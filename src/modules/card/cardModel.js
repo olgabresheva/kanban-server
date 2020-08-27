@@ -17,7 +17,7 @@ const todoSchema = mongoose.Schema(
     status: {
       type: String,
       required: false,
-      default: 'todo',
+      default: 'To Do',
     },
   },
   { timestamps: {} },
